@@ -1,6 +1,6 @@
 # <img src="https://i.imgur.com/lsizgGl.gif" width="30px"> Hello! I'm Lakshyaraj Dash known as GreenMonster.
 
-## I am a student from India who has completed and loves HTML, CSS and JavaScript. I am learning Python, TexStudio, R studio etc. ##
+**I am a student from India who has completed and loves HTML, CSS and JavaScript. I am learning Python, TexStudio, R studio etc.**
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lakshyaraj157&label=Views&color=blue&style=plastic" alt="Lakshyaraj" /> </p>
 
