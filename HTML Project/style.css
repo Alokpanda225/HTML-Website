@@ -75,3 +75,18 @@
     margin-left: 140px;
     background: rgb(0,100,0);
 }
+.change_content:after{
+content: '';
+animation: changetext 10s infinite linear;
+color: #00b8;
+text-align: center;
+}
+
+@keyframes changetext{
+    0%{content: "Welcome to my tutorials website.";}
+    20%{content: "Leran everything very easily.";}
+    40%{content: "Do data analysis in python by clicking the link on navbar.";}
+    60%{content: "Subscribe my youtube channel.";}
+    80%{content: "Learn everything in details";}
+    100%{content: "Contact us for any queries.";}
+}
