@@ -85,7 +85,7 @@ text-align: center;
 @keyframes changetext{
     0%{content: "Welcome to my tutorials website.";}
     20%{content: "Leran everything very easily.";}
-    40%{content: "Do data analysis in python by clicking the link on navbar.";}
+    40%{content: "Do data analysis in python by clicking on FreeCodeCamp on navbar.";}
     60%{content: "Subscribe my youtube channel.";}
     80%{content: "Learn everything in details";}
     100%{content: "Contact us for any queries.";}
