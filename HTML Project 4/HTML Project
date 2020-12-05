@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning html</title>
+    <style>
+        hr{
+            background-color: brown;
+        }
+        td{
+            background-color: chartreuse;
+        }
+        tr{
+            background-color: crimson;
+        }
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: url(https://images.unsplash.com/photo-1567734873341-2b835404dd3b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is my first webpage</h1>
+    <h2>This is my first webpage</h2>
+    <h3>This is my first webpage</h3>
+    <h4>This is my first webpage</h4>
+    <hr>
+    <p align="right">This is a paragraph which is left aligned</p>
+    <p align="center">This is a paragraph which is center aligned</p>
+    <p align="left">This is a paragraph which is right aligned</p>
+    <hr>
+    <p><strong>Embedding images</strong></p>
+    <img src="56833453.jpg" width="50%" height="50%">
+    <hr>
+    <p><strong>Making Tables in HTML</strong></p>
+    <table width="100%">
+        <tr>
+            <td>
+                <th>Name</th>
+            </td>
+            <td>
+                <th>Score out of 100</th>
+            </td>
+            <td>
+                <th>Grades</th>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <th>Rakesh</th>
+            </td>
+            <td>
+                <th>97</th>
+            </td>
+            <td>
+                <th>A1</th>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <p><strong>Embedding videos</strong></p>
+    <video src="Pexels Videos 1321208.mp4" controls width="50%" height="50%"></video>
+    <hr>
+    <p><strong>Embedding audios</strong></p>
+    <audio src="Dance Of The Sugar Plum Fairies.mp3" controls></audio>
+    <hr>
+    <p><strong>Forms in html</strong></p>
+    <form action="action_page.php" method="page">
+        Enter your name :<input type="text"><br>
+        Enter your email : <input type="email"><br>
+        Enter your password : <input type="password"><br>
+        What is your birth date ? <input type="date"><br>
+        <textarea name="message" style="width:200px; height:300px;" placeholder="Your Message">
+        </textarea><br>
+        <button onclick="alert('Registered')">Submit</button>
+    </form>
+    <hr>
+    <p><strong>Lists in html</strong></p>
+    <h2>This is an unordered list.</h2>
+    <ul type="square">
+        <li>Orange</li>
+        <li>Apple</li>
+        <li>Peach</li>
+    </ul><br>
+    <h2>This is an ordered list</h2>
+    <ol type="1">
+       <li>Orange</li>
+       <li>Apple</li>
+       <li>Peach</li>
+    </ol><br>
+    <h3><p align="center"><font size="5" color="red"><b>&#169; LAKSHYARAJ DASH - HTML PRO PROGRAMMER</b></font></p></h3>
+</body>
+</html>
